@@ -1,10 +1,28 @@
-# 09 Node.js Challenge: Professional README Generator
+# Readme_generator
 
-## Your Task
+## Professional README Generator
 
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. 
+The README.md file can be challenging for new students and tidius for developers. This project helps coders no matter their level to produce a professional README file. I learned how to use node to utilize npm files to produce an end project.
 
-You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+## Table of Contents 
+
+-[Installation] (#installation)
+-[Usage](# usage)
+-[Credits](# credits)
+-[License](# license)
+
+## Installation
+
+In order to install my project you will need to download my github repository. Also, have node installed on your computer. Open the integrated terminal from the (index.js) file. Type the phrase "node index.js" in the command line. Next a series of questions will populate. Your answers will be populated together in a file called "README". This is your generated README file. Enjoy! If you have any problems please report them to me @https://github.com/Sasley .
+
+## Credits
+
+YouTube.com; School.
+
+## License
+
+N/A
+
 
 Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4). Review the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain. 
 
