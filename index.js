@@ -2,7 +2,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require("path");
-const generateMarkdown = require("./utils/README.md");
 
 // prompt questions
 const questions = [
@@ -63,8 +62,8 @@ function writeToFile(fileName, data) {
         function init() {
             inquirer.prompt(questions)
             .then(function (userInput) {
-                // console.log(userInput)
-                writeToFile("utils/README.md", generateMarkdown(userInput));
+                console.log(userInput)
+                
             });
         }
 
