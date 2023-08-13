@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Professional README Generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "8.2.4"
-  }
+    "gitignore": "^0.7.0",
+    "inquirer": "^8.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sasley/readme_generator_take2.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Sasley/readme_generator_take2/issues"
+  },
+  "homepage": "https://github.com/Sasley/readme_generator_take2#readme"
 }
