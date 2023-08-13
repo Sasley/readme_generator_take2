@@ -2,7 +2,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require("path");
-const { makeBadge, ValidationError } = require('badge-maker')
+const generateMarkdown = require('./utils/generateMarkdown.js');
+const { makeBadge } = require('-badgemaker');  
 
 // prompt questions
 const questions = [
@@ -57,14 +58,21 @@ function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 // function to initialize app
+function init() {
+    inquirer.prompt(questions)
+    .then(function (userInput) {
+        console.log(userInput)
+        writeToFile("README.md", generateMarkdown(userInput));
 
-        function init() {
-            inquirer.prompt(questions)
-            .then(function (userInput) {
-                console.log("Creating Professional README.md File")
+    });
+}
+        // function init() {
+        //     inquirer.prompt(questions)
+        //     .then(function (userInput) {
+        //         console.log("Creating Professional README.md File")
                 
-            });
-        }
+        //     });
+        // }
 
         // Function call to initialize app
         init();
