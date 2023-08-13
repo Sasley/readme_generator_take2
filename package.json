@@ -7,6 +7,7 @@
     "ansi-escapes": "^4.3.2",
     "ansi-regex": "^5.0.1",
     "ansi-styles": "^4.3.0",
+    "badge-maker": "^3.3.1",
     "base64-js": "^1.5.1",
     "bl": "^4.1.0",
     "buffer": "^5.7.1",

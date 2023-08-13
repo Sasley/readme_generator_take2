@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require("path");
+const { makeBadge, ValidationError } = require('badge-maker')
 
 // prompt questions
 const questions = [
@@ -56,13 +57,11 @@ function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 // function to initialize app
-// function init() {
-//     inquirer.prompt(questions).then((response) => {
-//         console.log("Creating Professional README.md File...");
+
         function init() {
             inquirer.prompt(questions)
             .then(function (userInput) {
-                console.log(userInput)
+                console.log("Creating Professional README.md File")
                 
             });
         }
