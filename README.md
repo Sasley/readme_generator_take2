@@ -13,7 +13,13 @@ The README.md file can be challenging for new students and tidius for developers
 
 ## Installation
 
-In order to install my project you will need to download my github repository. Also, have node installed on your computer. Open the integrated terminal from the (index.js) file. Type the phrase "node index.js" in the command line. Next a series of questions will populate. Your answers will be populated together in a file called "README". This is your generated README file. Enjoy! If you have any problems please report them to me @https://github.com/Sasley .
+In order to install my project you will need to download my github repository. Also, have node installed on your computer. 
+
+## Usage
+
+Open the integrated terminal from the (index.js) file. Type the phrase "node index.js" in the command line. Next a series of questions will populate. Your answers will be populated together in a file called "README". This is your generated README file (located in utils/README.md). Enjoy! If you have any problems please report them to me @https://github.com/Sasley .
+
+(((Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video _and_ add it to the README of your project.)))
 
 ## Credits
 
@@ -23,14 +29,8 @@ YouTube.com; School.
 
 N/A
 
-
-
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video _and_ add it to the README of your project.
-
-
 ## User Story
 
-```md
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
@@ -60,7 +60,6 @@ THEN I am taken to the corresponding section of the README
 
 Here are some guidelines to help you get started:
 
-* Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
 
 * Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
 
