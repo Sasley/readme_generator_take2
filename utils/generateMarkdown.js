@@ -1,42 +1,27 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-// format for eah badge label
-{
-  label: 'build',  // (Optional) Badge label
-  message: 'passed',  // (Required) Badge message
-  labelColor: '#555',  // (Optional) Label color
-  color: '#4c1',  // (Optional) Message color
 
-  // (Optional) One of: 'plastic', 'flat', 'flat-square', 'for-the-badge' or 'social'
-  // Each offers a different visual design.
-  style: 'flat',
-}
 function renderLicenseBadge(license) {}
- let licenseChoice =''
- if (license != "None"){
-  license = "![License MIT](https://img.shields.io/github/license/:user/:repo)";
-  else if (licenseChoice==='MIT'){ license = "![]"
+//  let license =''
+//  if (license != "None"){
+//   license = "![License MIT](https://img.shields.io/github/license/:user/:repo)";
+//   else if (licenseChoice==='MIT'){ license = "![]"
 
-  }
-  else if (licenseChoice==='GPL'){ license = "![GPL]" (![Static Badge](https://img.shields.io/badge/:badgeContent)
-  )
+//   }
+//   else if (licenseChoice==='GPL'){ license = "![GPL]" 
+// }
     
-  }
-  else if (licenseChoice==='Apache'){
+//   }
+//   else if (licenseChoice==='Apache'){
     
-  }
-  else {
-    license.license = "None"
-  }
+//   }
+//   else {
+//     license.license = "None"
+//   }
 
-  return licenseChoice;
- };
+//   return licenseChoice;
+//  }
 
- if (licenseChoice=== 'MIT') {
-  yourLicense = '![License MIT](https://img.shields.io/github/license/:user/:repo)'
- }
-
-![GitHub](https://img.shields.io/github/license/:user/:repo)
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -45,12 +30,36 @@ function renderLicenseLink(license) {}
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
-![GitHub](https://img.shields.io/github/license/:user/:repo)
+
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
 
+return `# ${data.title}
+  #License:
+
+  ##Table of Contents
+  -[Title](#title)
+  -[Description](#description)
+  -[Installation](#installation)
+  -[Usage](#usage)
+  -[Resource](#resources)
+  -[Github](#github)
+
+  ##Title:
+  ${data.title}
+  ##Description:
+  ${data.description}
+  ##Installation:
+  ${data.installation}
+  ##Usage:
+  ${data.usage}
+  ##Resources:
+  ${data.resources}
+  ##Github:
+  ${data.github}
+  ##License:
+  ${data.license}
 `;
 }
 
