@@ -1,4 +1,4 @@
-# teachers
+# Note taker
   #License:
 
   
@@ -12,18 +12,18 @@
   -[Questions](#questions)
 
   ##Title:
-  teachers
+  Note taker
 
   ##Description:
-  salary 
+  This project will help students organize their notes while in a coding bootcamp. The user will be able to make a list questions as task. They will be able to organize files while in the end  all content will read out like a chapter book. 
 
 
   ##Installation:
-  node, npm, inquirer
+  html, css, javascript, node, inquirer, JSON.
 
 
   ##Usage:
-  
+  You will plug in information into given slots and the software will display the final outcomes.
 
 
   ##Contributing:
@@ -32,7 +32,7 @@
 
   
   ##Test:
-  node.js
+  node npm
 
 
   ##Github:
