@@ -1,4 +1,4 @@
-# a
+# teachers
   #License:
 
   
@@ -12,18 +12,18 @@
   -[Questions](#questions)
 
   ##Title:
-  a
+  teachers
 
   ##Description:
-  s
+  salary 
 
 
   ##Installation:
-  d
+  node, npm, inquirer
 
 
   ##Usage:
-  w
+  
 
 
   ##Contributing:
@@ -32,7 +32,7 @@
 
   
   ##Test:
-  f
+  node.js
 
 
   ##Github:
